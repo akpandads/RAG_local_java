@@ -45,12 +45,20 @@ If that happens, please investigate locally
 
 ### Running a model
 
-First i have to decide on a model
+The model that runs with the script is codellama:13b
+Feel free to modify the model as per your machine capabilities adn requirements
 
 
 ### Running the spring boot app
 
 Start the spring boot as as usual from IDE, spring boot cli or maven
+
+### Custom Data Setup for RAG
+
+place the files which you want to be trained under resources/RAG_data folder
+On start up it takes care of reading all the files and putting the data in vector store.
+Currently on text and pdf file parsing is done.
+_
 
 
 
