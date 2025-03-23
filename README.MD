@@ -13,6 +13,10 @@ Although it means slower response times but still it will give us a good underts
 #### 4. Ollama for supporting the embedding model
 #### 5. mxbai-embed-large as the Embedding model
 
+## Points to note
+
+1. Spring AI has inbuilt libraries which do the embedding and generate vectors when adding a document.Those interested can take a look at  public void doAdd(List<Document> documents) in the QdrantVectoreStore.class file
+2. ollama can be run natively or via docker. If you are using docker on a mac you might not be able to use the GPU capabilties. Hence i have seen a stark difference in response time when you are using ollama natively with GPU enabled. To enable GPU mode run as "OLLAMA_METAL=1 ollama run model_name" in mac systems
 
 ## Project Setup : Step by Step
 
@@ -36,6 +40,17 @@ The script pulls ollama image. waits till it is ready
 Logs in into ollama and puls the mxbai-embed-large
 The maximum time it waits for ollama to be ready is 5 minutes after that the script exits.
 If that happens, please investigate locally
+
+**As mesntioned above this is for running ollama in docker without GPU **
+
+### Running a model
+
+First i have to decide on a model
+
+
+### Running the spring boot app
+
+Start the spring boot as as usual from IDE, spring boot cli or maven
 
 
 

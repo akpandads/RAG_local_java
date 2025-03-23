@@ -24,6 +24,7 @@ done
 # If Ollama is ready, pull the required model
 echo "Ollama is running! Pulling mxbai-embed-large model..."
 docker exec -it ollama ollama pull mxbai-embed-large
+docker exec -it ollama ollama run codellama:13b
 
 echo "Ollama is ready with the model!"
 

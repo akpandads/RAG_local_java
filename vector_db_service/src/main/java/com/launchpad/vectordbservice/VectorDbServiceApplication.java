@@ -10,23 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class VectorDbServiceApplication implements CommandLineRunner {
-
-    @Autowired
-    DocumentService documentService;
+public class VectorDbServiceApplication {
 
     public static void main(String[] args) {
-        System.out.println("Staretd doc service");
-        SpringApplication app = new SpringApplication(VectorDbServiceApplication.class);
-        app.setWebApplicationType(WebApplicationType.NONE);
-        app.run(args);
-        //documentService.testService();
-
-        //SpringApplication.run(VectorDbServiceApplication.class, args);
+        SpringApplication.run(VectorDbServiceApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
-        documentService.testService();
-    }
 }
