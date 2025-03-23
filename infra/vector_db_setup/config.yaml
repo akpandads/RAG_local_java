@@ -1,0 +1,5 @@
+storage:
+  wal:
+    enabled: true
+    segment_size: 10485760  # Optional, 10MB default
+

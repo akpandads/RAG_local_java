@@ -1,0 +1,37 @@
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore IntelliJ IDEA and JetBrains IDEs
+.idea/
+*.iml
+
+# Ignore Maven target directory
+target/
+*.log
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore build artifacts
+*.war
+*.jar
+*.ear
+
+# Ignore dependency folders
+**/node_modules/
+**/venv/
+**/__pycache__/
+
+# Ignore Gradle build directory
+.gradle/
+build/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore temporary and backup files
+*.swp
+*.swo
+*~
+
