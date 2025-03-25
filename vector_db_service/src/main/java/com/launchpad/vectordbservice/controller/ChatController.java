@@ -1,5 +1,6 @@
 package com.launchpad.vectordbservice.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor;
 import org.springframework.ai.chat.messages.UserMessage;
@@ -16,6 +17,7 @@ import reactor.core.publisher.Flux;
 
 import java.util.Map;
 
+@Slf4j
 @RestController
 public class ChatController {
 
@@ -39,6 +41,23 @@ public class ChatController {
     public Flux<ChatResponse> generateStream(@RequestParam(value = "message", defaultValue = "Tell me a joke") String message) {
         Prompt prompt = new Prompt(new UserMessage(message));
         return this.chatModel.stream(prompt);
+    }
+
+    public ChatResponse generateIntent(@RequestParam(value = "message", defaultValue = "Tell me a joke") String message) {
+        log.info("Introducing intent");
+        String systemMessage =" You are a agent to assist scrum masters and developers in managing their tickets" +
+                "classify the intention of instruction and the action required." +
+                "Response should give following fields" +
+                "1. intent --- indicating the intent of instruction.it can be create, modify or delete only based on description" +
+                "2. action --- 4 to 5 words to describe the title of ticket" +
+                "3. description --- exact extracted descirption that will be put in the ticket"+
+                "4. status --- new for new ticket creation, else intended status" +
+                "5. ticketNumber --- NA for new tickets, else as provided in input";
+        ChatResponse response = ChatClient.builder(chatModel).build().prompt().system(systemMessage)
+                .user(message).call().chatResponse();
+        log.info("LLM End");
+        return response;
+
     }
 
 

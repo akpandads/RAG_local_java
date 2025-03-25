@@ -18,6 +18,14 @@ Although it means slower response times but still it will give us a good underts
 1. Spring AI has inbuilt libraries which do the embedding and generate vectors when adding a document.Those interested can take a look at  public void doAdd(List<Document> documents) in the QdrantVectoreStore.class file
 2. ollama can be run natively or via docker. If you are using docker on a mac you might not be able to use the GPU capabilties. Hence i have seen a stark difference in response time when you are using ollama natively with GPU enabled. To enable GPU mode run as "OLLAMA_METAL=1 ollama run model_name" in mac systems
 
+
+### Specific to "voice_ai_branch"
+Modifications were made to the main branch to have a Audio processing embedded and create a Trello ticket with voice command.
+
+It connects with AssemblyAI and generates a transcript.
+The transcript is fed to the LLM and then an intent is created which ultimately transforms into an action to create trello ticket
+This was just to demonstarte the different model integration so the code might be a little crude.
+
 ## Project Setup : Step by Step
 
 ### Setting up Qdrant
