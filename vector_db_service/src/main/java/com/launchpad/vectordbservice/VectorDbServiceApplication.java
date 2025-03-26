@@ -19,32 +19,26 @@ import java.io.File;
 
 @Slf4j
 @SpringBootApplication
-public class VectorDbServiceApplication implements CommandLineRunner{
+public class VectorDbServiceApplication{
 
     @Autowired
     DocumentService documentService;
-
-    @Autowired
-    AudioRecorder audioRecorder;
-
-    @Autowired
-    AssemblyAIService assemblyAIService;
-
-    @Autowired
-    ChatController chatController;
-
-    @Autowired
-    TextToActionService textToActionService;
-
-    @Value("${audio.file.name}")
-    private String audioFileName;
 
     public static void main(String[] args) {
         SpringApplication.run(VectorDbServiceApplication.class, args);
     }
 
 
-    @Override
+    @PostConstruct
+    public void prepareRAGData(){
+        documentService.uploadEmbeddings();
+    }
+
+    @PreDestroy
+    public void deleteRAGData(){
+    }
+
+/*    @Override
     public void run(String... args) throws Exception {
         log.info("Started command "+audioFileName);
         File audioFile = new File(audioFileName);
@@ -60,6 +54,5 @@ public class VectorDbServiceApplication implements CommandLineRunner{
             e.printStackTrace();
         }
         log.info("End Command");
-
-    }
+    }*/
 }

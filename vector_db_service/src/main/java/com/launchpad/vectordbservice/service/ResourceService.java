@@ -1,5 +1,6 @@
 package com.launchpad.vectordbservice.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -13,6 +14,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 @Service
+@Slf4j
 public class ResourceService {
     private final ResourceLoader resourceLoader;
 
@@ -32,6 +34,7 @@ public class ResourceService {
                 if (fileName != null && (fileName.endsWith(".txt") || fileName.endsWith(".pdf") || fileName.endsWith(".doc"))) {
                     fileUrls.add(fileUrl);
                 }
+                log.info("Files added "+fileUrls.stream().peek(file -> log.info(file.getFile())).count());
             } catch (IOException e) {
                 System.err.println("Cannot access file: " + resource.getFilename());
             }
