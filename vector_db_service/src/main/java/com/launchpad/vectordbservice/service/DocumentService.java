@@ -43,11 +43,12 @@ public class DocumentService {
             fileList.forEach(file ->{
                 DocumentModel documentModel = this.createDocumentFromInputFile(file);
                 if(documentModel!=null){
+                    log.info("Uploading tokens for document "+file.getFile());
                     documentToBeUploaded.addAll(documentModel.getDocument());
                     documentIds.add(documentModel.getDocumentId());
                 }
             });
-            documentToBeUploaded.forEach(documentModel -> vectorStore.add(documentToBeUploaded));
+            vectorStore.add(documentToBeUploaded);
 
         } catch (IOException e) {
             log.error("Error while parsing files for embeddings");

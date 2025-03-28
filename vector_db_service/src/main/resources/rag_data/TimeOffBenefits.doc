@@ -1,0 +1,322 @@
+Message-ID: <560113921.13.1743136636934@76c36cee698a>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_561995671.1743136636934"
+
+------=_Part_12_561995671.1743136636934
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Time-Off Benefits</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Time-Off Benefits</h1>
+    <div class=3D"Section1">
+        <p>Trivium is committed to promoting a healthy work-life balance an=
+d encourages employees to take time off to recharge and manage personal res=
+ponsibilities. Our time-off policies help employees balance their professio=
+nal and personal lives effectively while supporting organizational producti=
+vity. Additionally, Trivium provides specific time-off benefits to support =
+employees during significant life events or personal circumstances.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2880634882/Earned+Leave+Vacation+Leave=
+" data-linked-resource-id=3D"2880634882" data-linked-resource-version=3D"7"=
+ data-linked-resource-type=3D"page"><strong>Earned Leave / Vacation Leave</=
+strong></a></p>
+<p>Earned Leave and Vacation Leave accrue 1.25 days per month for every com=
+pleted month of full-time employment, totalling 15 working days per year. T=
+his provides employees with paid time off for vacation, annual leave, or be=
+ing away from work for personal reasons, as well as time to rest and rechar=
+ge.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2880634892/Sick+Leave+Casual+Leave" da=
+ta-linked-resource-id=3D"2880634892" data-linked-resource-version=3D"7" dat=
+a-linked-resource-type=3D"page"><strong>Sick Leave / Casual Leave</strong><=
+/a></p>
+<p>It allows employees to take 12 days of necessary time off annually for h=
+ealth recovery or personal matters, supporting their well-being and work-li=
+fe balance.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2881945608/Maternity+Leave" data-linke=
+d-resource-id=3D"2881945608" data-linked-resource-version=3D"3" data-linked=
+-resource-type=3D"page"><strong>Maternity Leave </strong></a></p>
+<p>Provides mothers with paid time off for childbirth and recovery, support=
+s their health, bonds with their newborn, and transitions to parenthood.</p=
+>
+<p><a href=3D"/wiki/spaces/ISO/pages/2883551233/Paternity+Leave" data-linke=
+d-resource-id=3D"2883551233" data-linked-resource-version=3D"6" data-linked=
+-resource-type=3D"page"><strong>Paternity Leave </strong></a></p>
+<p>Male employees receive 5 days of paid leave to bond with their newborns =
+and support their spouses during this beautiful moment of their lives.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2883518470/Marriage+Leave" data-linked=
+-resource-id=3D"2883518470" data-linked-resource-version=3D"4" data-linked-=
+resource-type=3D"page"><strong>Marriage Leave </strong></a></p>
+<p>Employees can enjoy a five-day paid break from work to celebrate their w=
+edding and embark on this remarkable new chapter filled with memories.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2880765953/Bereavement+Leave" data-lin=
+ked-resource-id=3D"2880765953" data-linked-resource-version=3D"11" data-lin=
+ked-resource-type=3D"page"><strong>Bereavement Leave</strong></a></p>
+<p>Offers employees compassionate time off of 2 working days to grieve and =
+manage personal affairs following the loss of a loved one.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2880634902/Medical+Leave" data-linked-=
+resource-id=3D"2880634902" data-linked-resource-version=3D"6" data-linked-r=
+esource-type=3D"page"><strong>Medical Leave </strong></a></p>
+<p>Offers paid time off for employees to focus on recovery from severe illn=
+ess or injury, ensuring their well-being and a smooth return to work.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2885484548/Compensatory+Off" data-link=
+ed-resource-id=3D"2885484548" data-linked-resource-version=3D"9" data-linke=
+d-resource-type=3D"page"><strong>Compensatory Off </strong></a></p>
+<p>Offers employees additional time off to recognise extra hours worked, al=
+lowing them to recharge and maintain a healthy work-life balance.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2931851265/Leave+of+Absence+Leave+with=
+out+Pay" data-linked-resource-id=3D"2931851265" data-linked-resource-versio=
+n=3D"3" data-linked-resource-type=3D"page"><strong>Leave of Absence/ Leave =
+without Pay</strong></a></p>
+<p>Allows employees to take time off for personal needs or circumstances be=
+yond available paid leave, supporting work-life balance during significant =
+life events.</p>
+<p><a href=3D"/wiki/spaces/ISO/pages/2872770561/Holiday+Calendar" data-link=
+ed-resource-id=3D"2872770561" data-linked-resource-version=3D"10" data-link=
+ed-resource-type=3D"page"><strong>Holiday Calendar </strong></a></p>
+<p>A scheduled list of company-recognised holidays, enabling employees to p=
+lan personal time and celebrations throughout the year with family and love=
+d ones.</p>
+<hr>
+<h2 id=3D"Time-OffBenefits-GeneralGuidelines">General Guidelines</h2>
+<h3 id=3D"Time-OffBenefits-LeaveApprovalProcess">Leave Approval Process</h3=
+>
+<p>All leave requests must be submitted through the company=E2=80=99s Leave=
+ Management system and approved by the Reporting Manager or Immediate Super=
+visor. Verbal or informal approvals are not accepted.</p>
+<p>Planned leave requests should be submitted two weeks days in advance to =
+allow sufficient time for team planning.</p>
+<p>In unforeseen emergencies, employees should notify their Reporting Manag=
+er and HR as soon as possible (preferably at least one hour before the star=
+t of the workday).</p>
+<p>Certain types of leave, such as extended medical, maternity, and special=
+ leave, may require supporting documentation (e.g., a doctor=E2=80=99s note=
+, medical certificate, or certificate from a gynaecologist).</p>
+<h3 id=3D"Time-OffBenefits-LeaveEncashment">Leave Encashment</h3>
+<p>Earned Leave is eligible for encashment under specific circumstances, su=
+ch as during the final settlement upon resignation, retirement, or terminat=
+ion. Other leave types, including Casual Leave and Special Leave, are not e=
+ligible for encashment.</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_12_561995671.1743136636934--

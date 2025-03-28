@@ -32,7 +32,9 @@ public class ChatController {
 
     @GetMapping("/ai/generate")
     public ChatResponse generate(@RequestParam(value = "message", defaultValue = "Tell me a joke") String message) {
+        log.info("Chat Model Parameters "+chatModel.getDefaultOptions().toString());
         ChatResponse response = ChatClient.builder(chatModel).build().prompt().advisors(new QuestionAnswerAdvisor((vectorStore))).user(message).call().chatResponse();
+        log.info("Chat response metadata"+ response.getMetadata());
         return response;
 
     }

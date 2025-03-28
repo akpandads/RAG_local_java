@@ -1,0 +1,417 @@
+Message-ID: <2034498882.21.1743136693367@5e32e79e8997>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_424480393.1743136693367"
+
+------=_Part_20_424480393.1743136693367
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Data Transmission within and outside Trivium</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Data Transmission within and outside Trivium</h1>
+    <div class=3D"Section1">
+        <blockquote>
+<p><em>Both the exchange of data with other entities via electronic communi=
+cation networks as well as the physical transport of mobile data carriers a=
+nd documents must be secured in such a way that the confidentiality and int=
+egrity of personal data is not compromised. </em></p>
+<p><em>In the following, we explain how data is handled within and outside =
+of Trivium. </em></p>
+</blockquote>
+<p></p>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<ol start=3D"1">
+<li>
+<p>Simply because you and your colleagues work for the same company does no=
+t mean that everyone has access to the same data. The opposite is true. Don=
+'t be afraid to ask!</p></li>
+<li>
+<p>Access to data must be limited to what is absolutely necessary. If you a=
+re unsure about the permissions for accessing data in your area, please spe=
+ak with your supervisor immediately.</p></li>
+<li>
+<p>Sharing data with external parties requires a high level of diligence an=
+d rules for sharing.</p></li>
+<li>
+<p>Unauthorised disclosure of personal data may result in an obligation to =
+report a personal data breach.</p></li>
+</ol>
+</div>
+</div>
+<h1 id=3D"DataTransmissionwithinandoutsideTrivium-Internaldatatransmission"=
+>Internal data transmission</h1>
+<h2 id=3D"DataTransmissionwithinandoutsideTrivium-Typicalexample">Typical e=
+xample</h2>
+<p>An application for the development department is forwarded to an employe=
+e of the marketing department, who is generally not authorised to access ap=
+plicants' data. As a rule, the HR department, the management and, if applic=
+able, the head of department in the respective department are responsible f=
+or data processing within the scope of application processes. The principle=
+s of <strong>confidentiality </strong>and <strong>purpose limitation</stron=
+g> must be observed without restriction - which means that employees outsid=
+e these areas of responsibility are <strong>not allowed to access</strong> =
+the relevant data.</p>
+<h2 id=3D"DataTransmissionwithinandoutsideTrivium-Carefulhandlingofdata">Ca=
+reful handling of data</h2>
+<p>To ensure adequate data protection at Trivium, it is advisable not to pa=
+ss on personal data to unauthorised persons or to persons who are not respo=
+nsible for the processing. It should therefore be regulated which persons o=
+r departments have access to which data in order to mitigate a personal dat=
+a breach.</p>
+<p>It can be a good intention to provide colleagues with information - for =
+example, when they ask for it. However, in any case, make sure that there i=
+s no doubt about the <strong>authorisation of the requesting employee</stro=
+ng>.</p>
+<p>The principles of <strong>confidentiality </strong>and <strong>purpose l=
+imitation </strong>must be fully observed - which means that employees outs=
+ide of these responsibilities must not have access to the relevant data.</p=
+>
+<h1 id=3D"DataTransmissionwithinandoutsideTrivium-Datatransmissiontoexterna=
+lparties">Data transmission to external parties</h1>
+<p>The transfer of data to external parties (e.g. to the tax consultant or =
+to a client) via electronic communication networks as well as the physical =
+transport of mobile data carriers and documents must be secured in such a w=
+ay that the confidentiality and integrity of the personal data is not compr=
+omised.</p>
+<p>To ensure these requirements, mobile data carriers should be <strong>enc=
+rypted </strong>according to state-of-the-art technology. For e-mail and cl=
+oud platforms, transport encryption and content encryption of personal data=
+ are recommended (see <a href=3D"/wiki/spaces/ISO/pages/2878472198/Secure+E=
+mail+Communication" data-linked-resource-id=3D"2878472198" data-linked-reso=
+urce-version=3D"8" data-linked-resource-type=3D"page">Secure Email Communic=
+ation</a>).</p>
+<h1 id=3D"DataTransmissionwithinandoutsideTrivium-Usetherighttools">Use the=
+ right tools</h1>
+<p>For any business related internal and external digital communication the=
+ accounts and tools / services provided by Trivium must be used on company =
+as well as your own devices. Examples are</p>
+<ul>
+<li>
+<p>Email, Calendar, Contacts: Trivium email address and Outlook</p></li>
+<li>
+<p>Meetings and chats: Microsoft Teams</p></li>
+<li>
+<p>File exchange: Microsoft Onedrive or <a class=3D"external-link" data-car=
+d-appearance=3D"inline" href=3D"https://share.trivium-esolutions.de/" rel=
+=3D"nofollow">https://share.trivium-esolutions.de/</a></p></li>
+<li>
+<p>Password exchange: Keeper (<a class=3D"external-link" data-card-appearan=
+ce=3D"inline" href=3D"https://docs.keeper.io/en/user-guides/self-destructin=
+g-records" rel=3D"nofollow">https://docs.keeper.io/en/user-guides/self-dest=
+ructing-records</a>)</p></li>
+</ul>
+<p>If there are project-specific differences, these must be taken into acco=
+unt. This includes, for example, the provision of e-mail addresses or other=
+ communication platforms by the client.</p>
+<h1 id=3D"DataTransmissionwithinandoutsideTrivium-Consequencesofunauthorize=
+ddisclosure">Consequences of unauthorized disclosure</h1>
+<p>Any form of carelessness and negligence when disclosing personal data ca=
+n result in legal sanctions, such as fines.</p>
+<p>Anyone who discloses personal data unlawfully interferes intensively wit=
+h the data subject's rights. Therefore, you must check whether your disclos=
+ure actions are lawful according to Art. 6 of the General Data Protection R=
+egulation (GDPR) and whether the recipient is also authorised to do so befo=
+re such disclosure.</p>
+<p>Even if an unauthorised person gains access to personal data, a personal=
+ data breach pursuant to Art. 33 of the GDPR has occurred. Depending on the=
+ severity of the consequences for the data subject and the likelihood of oc=
+currence, this may even lead to an obligation to report to the supervisory =
+authority concerned.</p>
+<h1 id=3D"DataTransmissionwithinandoutsideTrivium-FurtherReading">Further R=
+eading</h1>
+<p>See the following policies for further information:</p>
+<ul>
+<li>
+<p><a class=3D"external-link" href=3D"https://trivium-esolutions.atlassian.=
+net/l/cp/8jeZ0JYe" rel=3D"nofollow">Clean Desk Policy</a></p></li>
+<li>
+<p><a href=3D"https://trivium-esolutions.atlassian.net/wiki/x/AYAdkQ" rel=
+=3D"nofollow">Data Handling Policy</a></p></li>
+<li>
+<p><a href=3D"https://trivium-esolutions.atlassian.net/wiki/x/AYAgkQ" rel=
+=3D"nofollow">Password Policy</a></p></li>
+<li>
+<p><a href=3D"https://trivium-esolutions.atlassian.net/wiki/x/DwAekQ" rel=
+=3D"nofollow">Mobile Working Policy</a></p></li>
+</ul>
+<h1 id=3D"DataTransmissionwithinandoutsideTrivium-DocumentControl">Document=
+ Control</h1>
+<div class=3D"plugin-tabmeta-details">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"fb2202d0-04f8-442d-bcd1-12a=
+90d4e2075" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 156.0px;">
+<col style=3D"width: 570.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Page Owner</strong></p></th>
+<td class=3D"confluenceTd">
+<p>CISO</p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Approval by</strong></p></th>
+<td class=3D"confluenceTd">
+<p>CTO</p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Authorized on</strong></p></th>
+<td class=3D"confluenceTd">
+<p><time datetime=3D"2024-11-14" class=3D"date-past">14 Nov 2024</time></p>=
+</td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Version status</strong></p></th>
+<td class=3D"confluenceTd">
+<p>2.0</p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Last review</strong></p></th>
+<td class=3D"confluenceTd">
+<p><time datetime=3D"2025-01-08" class=3D"date-past">08 Jan 2025</time></p>=
+</td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Next review</strong></p></th>
+<td class=3D"confluenceTd">
+<p><time datetime=3D"2025-11-14" class=3D"date-future">14 Nov 2025</time></=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_20_424480393.1743136693367--

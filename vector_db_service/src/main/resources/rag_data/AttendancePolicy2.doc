@@ -1,0 +1,345 @@
+Message-ID: <2074584617.19.1743136612144@5e32e79e8997>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_18_1438955719.1743136612143"
+
+------=_Part_18_1438955719.1743136612143
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Attendance Policy</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Attendance Policy</h1>
+    <div class=3D"Section1">
+        <p>Consistent attendance and punctuality are essential for maintain=
+ing operational efficiency and teamwork at Trivium. This policy outlines ou=
+r expectations regarding attendance, leave planning, and communication of a=
+bsences, as well as the procedures for tracking attendance in office and re=
+mote work settings.</p>
+<h2 id=3D"AttendancePolicy-WorkingHours">Working Hours</h2>
+<p>Employees must adhere to the official hours of 9:00 AM to 6:00 PM, inclu=
+ding a one-hour break.</p>
+<h2 id=3D"AttendancePolicy-WorkingHoursExpectations">Working Hours Expectat=
+ions</h2>
+<p>Employees are expected to work an average of <strong>8 net hours daily</=
+strong>, regardless of whether they are <strong>working from the office, re=
+motely, or from home (WFH).</strong> Any shortfall in hours on a given day =
+must be made up within the same workweek unless otherwise approved by their=
+ supervisor.</p>
+<h2 id=3D"AttendancePolicy-ImportanceofAttendance">Importance of Attendance=
+</h2>
+<p>Regular attendance is critical to <strong>individual performance and the=
+ overall success of the organisation. Every employee is responsible for man=
+aging</strong> their attendance to minimise disruption to their team and en=
+sure smooth workflows across the organization.</p>
+<p>Adherence to this policy contributes to an efficient, respectful, and pr=
+oductive work environment and reflects an employee=E2=80=99s commitment to =
+their role. It is important to note that excessive absences, including thos=
+e resulting in <strong>Loss of Pay (LOP)</strong>, may impact the employee=
+=E2=80=99s performance evaluation and can have consequences for the followi=
+ng salary increment.</p>
+<p>By maintaining regular attendance and adhering to company guidelines, em=
+ployees play a key role in driving Trivium=E2=80=99s success.</p>
+<hr>
+<h2 id=3D"AttendancePolicy-PunctualityandAttendanceCommitment">Punctuality =
+and Attendance Commitment</h2>
+<p>Every employee is expected to adhere to high punctuality and regular att=
+endance standards. Your presence and timeliness ensure that responsibilitie=
+s are fulfilled without disrupting the workflow. Unplanned or frequent abse=
+nces can negatively impact both the team and ongoing projects.</p>
+<hr>
+<h2 id=3D"AttendancePolicy-AttendanceTrackingProcedures">Attendance Trackin=
+g Procedures</h2>
+<h3 id=3D"AttendancePolicy-WhenWorkingfromtheOffice">When Working from the =
+Office</h3>
+<p>Employees must <strong>clock-in upon entering the office and clock-out u=
+pon leaving.</strong> This ensures accurate tracking of attendance and work=
+ing hours.</p>
+<p>Employees must <strong>clock-in and clock-out every time</strong> they <=
+strong>leave the premises</strong>, whether for a break, official purposes,=
+ or any other reason. This ensures accurate attendance tracking, compliance=
+ with organisational policies, and <strong>fulfillment of net daily working=
+ hour requirements</strong>.</p>
+<h3 id=3D"AttendancePolicy-WhenWorkingRemotely">When Working Remotely</h3>
+<p>Employees must login and logout using the <strong>mobile application</st=
+rong> to record attendance. Failure to record attendance through the app wi=
+ll result in being marked <strong>Absent</strong> for that day.</p>
+<hr>
+<h2 id=3D"AttendancePolicy-AttendanceRegularization">Attendance Regularizat=
+ion</h2>
+<p>Employees will receive an <strong>email notification</strong> for attend=
+ance regularization in the following situations:</p>
+<ul>
+<li>
+<p>If <strong>Absent</strong> the previous day.</p></li>
+<li>
+<p>If the <strong>required working hours</strong> for the previous day were=
+ not met.</p></li>
+</ul>
+<p>Under these circumstances, employees must regularise their attendance by=
+ either Applying for leave if they are absent or providing a valid reason f=
+or the shortfall, which their manager must approve.</p>
+<p>Suppose an employee fails to meet the attendance requirements or takes u=
+napproved leave. In that case, the shortfall may result in salary deduction=
+s unless otherwise regularized and approved by their manager.</p>
+<hr>
+<h2 id=3D"AttendancePolicy-Leaves">Leaves</h2>
+<h3 id=3D"AttendancePolicy-NoticePeriod">Notice Period</h3>
+<p>Employees must plan <span class=3D"inline-comment-marker" data-ref=3D"75=
+286a3b-91e1-4595-9560-603adcf8c07b">their</span> leave in advance, providin=
+g <strong>at least two weeks advance notice</strong> for planned leaves.</p=
+>
+<h3 id=3D"AttendancePolicy-UnplannedAbsences">Unplanned Absences</h3>
+<p>In cases of unforeseen circumstances, such as illness or personal emerge=
+ncies, employees are required to:</p>
+<p>Please notify your Immediate Supervisor and HR by phone or e-mail at lea=
+st one hour before the start of your workday. Text messages, e-mails or not=
+ifications <strong>via colleagues will not</strong> be considered formal no=
+tifications.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>For more details on Leaves see <a data-card-appearance=3D"inline" href=
+=3D"https://trivium-esolutions.atlassian.net/wiki/x/AgCeow" rel=3D"nofollow=
+">https://trivium-esolutions.atlassian.net/wiki/x/AgCeow</a></p>
+</div>
+</div>
+<hr>
+<h2 id=3D"AttendancePolicy-UnauthorisedAbsences">Unauthorised Absences</h2>
+<p>Unauthorised absences=E2=80=94failure to communicate as per the outlined=
+ procedures=E2=80=94will lead to disciplinary action. Repeated occurrences =
+may result in formal warnings and affect performance evaluations.</p>
+<hr>
+<h2 id=3D"AttendancePolicy-LeaveExhaustionandDeduction">Leave Exhaustion an=
+d Deduction</h2>
+<p>Suppose an employee has used all their available leave and requires addi=
+tional time off. In that case, the excess will be automatically deducted as=
+ a <strong>Loss of Pay (LOP)</strong>, calculated based on the <strong>Gros=
+s Salary</strong>. The deduction will be reflected in the following month's=
+ salary. Employees are responsible for monitoring their leave balance and e=
+nsuring that planned absences do not exceed it.</p>
+<hr>
+    </div>
+</body>
+</html>
+------=_Part_18_1438955719.1743136612143--

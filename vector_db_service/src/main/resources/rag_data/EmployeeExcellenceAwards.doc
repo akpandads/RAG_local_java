@@ -1,0 +1,388 @@
+Message-ID: <1374321649.29.1743136744639@5e32e79e8997>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_28_795953501.1743136744638"
+
+------=_Part_28_795953501.1743136744638
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee Excellence Awards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee Excellence Awards</h1>
+    <div class=3D"Section1">
+        <p>At Trivium, we believe that recognising exceptional performance =
+that drives innovation and elevates our work's overall quality. The <strong=
+>Employee Excellence Awards</strong> celebrate Trivians who have made remar=
+kable contributions that enhance our internal standards and our mission of =
+delivering top-tier, innovative solutions. These efforts, in turn, strength=
+en our partnerships with customers and promote a culture of continuous impr=
+ovement and excellence.</p>
+<p>These <strong>awards honour individuals and teams</strong> whose efforts=
+, whether through direct contributions or by going above and beyond their r=
+oles, have significantly furthered Trivium's goals. Their achievements=E2=
+=80=94within and outside their job descriptions=E2=80=94foster a spirit of =
+encouragement, collaboration, and excellence across the organisation.</p>
+<p>Each award includes a specially designed citation and a meaningful gift.=
+ Our highest honours=E2=80=94the <strong>"TITANS", "Excellence Awards", and=
+ "Newcomer Excellence"</strong>=E2=80=94 further recognise the extraordinar=
+y contributions of these recipients.</p>
+<p>Beyond recognising individual accomplishments, these awards reflect our =
+commitment to improving the internal quality of work at Trivium, motivating=
+ all employees to push boundaries, take ownership, and excel. Each award wi=
+ll articulate the nature of the recipient's contribution, its value to Triv=
+ium, and why it deserves special recognition.</p>
+<h2 id=3D"EmployeeExcellenceAwards-AwardsCategories">Awards Categories</h2>
+<p>The <strong>Employee Excellence Awards</strong> include a range of categ=
+ories designed to recognise the outstanding contributions of individuals ac=
+ross various areas of expertise and responsibility. Each award highlights d=
+ifferent facets of excellence, from leadership to technical skills, ensurin=
+g every significant effort is acknowledged.</p>
+<ul>
+<li>
+<p><strong>Excellence in Contributions as a Newcomer (Trainee &amp; Lateral=
+ Hire)</strong></p></li>
+<li>
+<p><strong>Excellence in Leadership</strong></p></li>
+<li>
+<p><strong>Excellence in Technical Competency</strong></p></li>
+<li>
+<p><strong>Excellence in Quality of Service and Delivery</strong></p></li>
+<li>
+<p><strong>Excellence in Organisational Development</strong></p></li>
+<li>
+<p><strong>The Titans - Team Award for Excellence</strong></p></li>
+</ul>
+<p>Each award will have a detailed page on which you can learn more about t=
+he criteria, evaluation parameters, and nomination process.</p>
+<p>The <strong>Employee Excellence Awards</strong> are a testament to Trivi=
+um's commitment to recognising and rewarding the extraordinary efforts that=
+ drive our success. By honouring those who push the boundaries of what's po=
+ssible through innovation, leadership, or operational excellence, we foster=
+ a culture of continuous growth, collaboration, and dedication to quality. =
+These awards celebrate individual achievements and inspire all Trivians to =
+strive for excellence, enhancing our collective strength as an organisation=
+.</p>
+<p>We encourage all employees to participate in the nomination process, whi=
+ch will help highlight those who have made a difference at Trivium.</p>
+<h2 id=3D"EmployeeExcellenceAwards-EvaluationCriteria">Evaluation Criteria<=
+/h2>
+<p>Each award includes specific <strong>Evaluation Parameters</strong> and<=
+strong> Key Considerations </strong>to guide the nomination process. The <s=
+trong>Evaluation Parameters</strong> are designed to guide the fair and con=
+sistent assessment of Excellence Awards nominees across departments.</p>
+<p>The <strong>Evaluation Parameters</strong> serve as a structured approac=
+h to recognising outstanding individuals and teams across various award cat=
+egories.</p>
+<p>When you submit nominations, please follow the guidelines to show how no=
+minees deserve the award based on the outlined criteria, which align with T=
+rivium's values and goals.</p>
+<h3 id=3D"EmployeeExcellenceAwards-KeyConsiderationsforNominators">Key Cons=
+iderations for Nominators</h3>
+<ul>
+<li>
+<p><strong>Clarity and Detail</strong>: Provide specific, detailed examples=
+ to justify each nomination. General statements should be avoided in favour=
+ of clear evidence that supports the nominee=E2=80=99s excellence.</p></li>
+<li>
+<p><strong>Comprehensive View</strong>: Ensure that the evaluation covers a=
+ll relevant areas and presents a well-rounded view of the nominee=E2=80=99s=
+ achievements.</p></li>
+<li>
+<p><strong>Use of Supporting Materials</strong>: Use any supporting informa=
+tion or documents, customer feedback, or peer recognition to strengthen the=
+ nomination and provide context for the nominee=E2=80=99s impact.</p></li>
+</ul>
+<h2 id=3D"EmployeeExcellenceAwards-WhoCanNominate?">Who Can Nominate?</h2>
+<ul>
+<li>
+<p>For <strong>Excellence in Contributions as a Newcomer, </strong>the Peop=
+le Function will <strong>specifically invite nominators</strong> to submit =
+their nominations.</p></li>
+<li>
+<p>For the <strong>Excellence Awards</strong> (Leadership, Technical Compet=
+ency, Quality of Service &amp; Delivery, and Organizational Development), <=
+strong>any employee can nominate an eligible employee</strong>, and <strong=
+>self-nominations are encouraged</strong>.</p></li>
+<li>
+<p>For the <strong>Team Award for Excellence</strong>, <strong>eligible tea=
+ms can nominate themselves.</strong></p></li>
+</ul>
+<h2 id=3D"EmployeeExcellenceAwards-NominationProcess">Nomination Process</h=
+2>
+<ol start=3D"1">
+<li>
+<p><strong>Call for Nominations:</strong> The People Function team will sen=
+d an official email announcing the nomination process. This email will list=
+ eligible individuals or teams for the award categories.</p></li>
+<li>
+<p><strong>Nomination Window:</strong> The window for submitting nomination=
+s will remain open for <strong>four weeks</strong>. During this time, nomin=
+ators are encouraged to prepare and submit their nominations.</p></li>
+<li>
+<p><strong>Submission Deadline:</strong> All nominations must be submitted =
+by the deadline specified in the email communication. <strong>Late submissi=
+ons will not be considered</strong>.</p></li>
+<li>
+<p><strong>Evaluation and Review:</strong> After the submission window clos=
+es, an evaluation panel will review the nominations based on the provided e=
+valuation parameters.</p></li>
+<li>
+<p><strong>Announcement of Winners</strong>: The winners will be announced =
+at the awards ceremony or through an official company-wide communication on=
+ce the evaluations are complete.</p></li>
+</ol>
+<h2 id=3D"EmployeeExcellenceAwards-NominationSubmissionFormats">Nomination =
+Submission Formats</h2>
+<p>Nominators are encouraged to submit their nominations using any preferre=
+d medium=E2=80=94<strong>a PowerPoint presentation,</strong> <strong>Word d=
+ocument, video, or another format</strong>. The only requirement is that th=
+e submission comprehensively cover the <strong>evaluation criteria</strong>=
+ for the specific award category, ensuring that the nominee's achievements =
+are demonstrated.</p>
+<h2 id=3D"EmployeeExcellenceAwards-EligibilityCriteriaforAwards">Eligibilit=
+y Criteria for Awards</h2>
+<ul>
+<li>
+<p>Employees must be <strong>in active employment </strong>when the <strong=
+>awards are presented</strong>. Employees who have tendered their resignati=
+on are not eligible.</p></li>
+<li>
+<p>Employees who have <strong>not completed more than two years</strong> of=
+ employment as of <strong>1st December</strong> of the award year are eligi=
+ble for the <strong>Excellence in Contributions as a Newcomer</strong> awar=
+d.</p></li>
+<li>
+<p>To be eligible for the <strong>Excellence Awards </strong>(Leadership, T=
+echnical Competency, Quality of Service &amp; Delivery, Organizational Deve=
+lopment), employees must have completed at least<strong> 18 months</strong>=
+ of employment as of <strong>1st December</strong> of the award year.</p></=
+li>
+<li>
+<p>The <strong>organisation will announce </strong>which teams are eligible=
+ for the <strong>Team Award for Excellence</strong>.</p></li>
+</ul>
+<hr>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_28_795953501.1743136744638--
