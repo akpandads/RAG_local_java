@@ -21,7 +21,7 @@ public class VectorDbServiceApplication {
         SpringApplication.run(VectorDbServiceApplication.class, args);
     }
 
-    @PostConstruct
+   // @PostConstruct
     public void prepareRAGData(){
         documentService.uploadEmbeddings();
     }
